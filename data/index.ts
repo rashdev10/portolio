@@ -107,12 +107,12 @@ export const projects = [
     link: "https://girls4leadership.org/",
   },
   {
-    id: 4,
-    title: "Buy and sell music, albums",
-    des: "Discover new music, connect with musicians, and grow your network",
-    img: "/mixcurb.png",
-    iconLists: ["/vuejs.svg", "/ts.svg", "/node-js.svg", "/tail.svg"],
-    link: "https://mixcurb.com/",
+    id: 3,
+    title: "Homiverse",
+    des: "Platform offers thoroughly vetted apartments, reliable roommate matching, and streamlined property management - all in one place",
+    img: "/homiverse.svg",
+    iconLists: ["/next.svg", "/ts.svg", "/redux.svg"],
+    link: "https://homiverse.netlify.app/",
   },
   {
     id: 5,
@@ -178,19 +178,19 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "Plateuamed",
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "Homiverse",
     img: "/app.svg",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "Samar",
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },

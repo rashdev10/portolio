@@ -44,7 +44,7 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-90">
             Experienced Frontend Developer & Technical Writer | Specializing in
-            React.js, Remix and Vue & Dynamic Web Applications | Dedicated to
+            ReactJS, NextJS, React Native and Flutter | Dedicated to
             High-Quality Solutions & Collaborative Teamwork
           </p>
 
