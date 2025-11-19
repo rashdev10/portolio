@@ -2,7 +2,7 @@ import {useState} from "react"
 import {IoCopyOutline} from "react-icons/io5"
 
 // Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie"
+import ClientOnlyLottie from "./ClientOnlyLottie"
 
 import {cn} from "@/lib/utils"
 
@@ -67,12 +67,14 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     const text = "rasheediskilu.dev@gmail.com"
-    navigator.clipboard.writeText(text)
-    setCopied(true)
-    // Reset `copied` and stop the animation after it finishes playing
-    setTimeout(() => {
-      setCopied(false)
-    }, 1500) // Adjust the timeout to match the length of your animation
+    if (typeof navigator !== 'undefined' && navigator.clipboard) {
+      navigator.clipboard.writeText(text)
+      setCopied(true)
+      // Reset `copied` and stop the animation after it finishes playing
+      setTimeout(() => {
+        setCopied(false)
+      }, 1500) // Adjust the timeout to match the length of your animation
+    }
   }
 
   return (
@@ -185,7 +187,7 @@ export const BentoGridItem = ({
                 }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie
+                <ClientOnlyLottie
                   options={defaultOptions}
                   height={200}
                   width={400}
