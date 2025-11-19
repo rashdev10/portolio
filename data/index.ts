@@ -1,9 +1,9 @@
 export const navItems = [
-  {name: "About", link: "#about"},
-  {name: "Projects", link: "#projects"},
-  {name: "Testimonials", link: "#testimonials"},
-  {name: "Contact", link: "#contact"},
-]
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "#projects" },
+  { name: "Testimonials", link: "#testimonials" },
+  { name: "Contact", link: "#contact" },
+];
 
 export const gridItems = [
   {
@@ -67,14 +67,14 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-]
+];
 
 export const projects = [
   {
     id: 1,
     title: "Transform hospital operations",
     des: "Neo EHR provides you with a 360 degree view: the most relevant data you need for clinical care, growing revenues and managing pharmacy inventory",
-    img: "/plateaumedImage.svg",
+    img: "/neo-ehr.png",
     iconLists: [
       "/next.svg",
       "/net.svg",
@@ -82,7 +82,29 @@ export const projects = [
       "/ts.svg",
       "/redux.svg",
     ],
-    link: "https://www.plateaumed.com/",
+    link: "https://neopharm.dev.plural.health/signup ",
+  },
+  {
+    id: 2,
+    title: "Transform pharmacy operations",
+    des: "Modern pharmacy management system with offline-first architecture, real-time inventory tracking, POS integration, and multi-outlet support for seamless pharmaceutical operations.",
+    img: "/neo-pharmacy.webp",
+    iconLists: [
+      "/next.svg",
+      "/net.svg",
+      "/postgres.svg",
+      "/ts.svg",
+      "/redux.svg",
+    ],
+    link: "https://neopharm.dev.plural.health/signup",
+  },
+  {
+    id: 3,
+    title: "Healthcare Technology Website",
+    des: "Modern, performance-optimized website for Plural Health's healthcare management solutions including EHR systems, patient apps, and insurance platforms",
+    img: "/plural-health.png",
+    iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/fm.svg"],
+    link: "https://plural.health",
   },
   {
     id: 2,
@@ -114,67 +136,34 @@ export const projects = [
     iconLists: ["/next.svg", "/ts.svg", "/redux.svg"],
     link: "https://homiverse.netlify.app/",
   },
-  {
-    id: 5,
-    title: "Digital wallet for tax-free shopping",
-    des: "Samar is your automated travel wallet. We use customized digital solutions to simplify your travel and retail experiences",
-    img: "/samarweb.svg",
-    iconLists: [
-      "/gatsbyjs.svg",
-      "/javascript.svg",
-      "/airtable.svg",
-      "/css.svg",
-    ],
-    link: "https://www.trysamar.com/",
-  },
-  {
-    id: 6,
-    title: "Towards the Isolo of our Dreams",
-    des: "Official website of ISOLO LCDA, Where we keep you abreast of the Latest Happenings and Development in the LCDA",
-    img: "/isololcda.svg",
-    iconLists: [
-      "/gatsbyjs.svg",
-      "/javascript.svg",
-      "/airtable.svg",
-      "/sass.svg",
-    ],
-    link: "https://isololcda-raashot12.vercel.app/",
-  },
-]
+];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Rasheed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Rasheed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Rasheed is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "NeoEHR supercharges productivity with intuitive tools, AI suggestions, voice-to-text, and live reports — streamlining patient tracking, inventory, and remote work for busy healthcare teams",
+    name: "Dr Dahiru Yunusa",
+    title: "Consultant Radiologist",
   },
   {
     quote:
-      "Collaborating with Rasheed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Rasheed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Rasheed is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Since switching to Plural Health's NeoEHR, we've seen faster prescription dispensing and tighter inventory control. It's a clear upgrade that's improved accuracy and efficiency across the board",
+    name: "Pharm. Kish Ndungati",
+    title: "Pharmacist",
   },
   {
     quote:
-      "Collaborating with Rasheed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Rasheed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Rasheed is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "NeoEHR has transformed our operations—boosting revenue recovery, closing billing loopholes, and adding transparency to test orders. Tracking hospital income is now seamless and accurate",
+    name: "Jerry Chima Ekeuhie",
+    title: "Medical Laboratory Scientist",
   },
   {
     quote:
-      "Collaborating with Rasheed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Rasheed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Rasheed is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "NeoEHR meets all our clinical needs — outpatient, inpatient, lab, and pharmacy. It's user-friendly, efficient, and our staff adapted quickly with minimal training.",
+    name: "Tolulope Kolawole",
+    title: "IT & Administrative Manager",
   },
-  {
-    quote:
-      "Collaborating with Rasheed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Rasheed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Rasheed is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-]
-
+];
 export const companies = [
   {
     id: 1,
@@ -206,38 +195,38 @@ export const companies = [
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },
-]
+];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer at Plateaumed",
-    desc: "Contributed in the development of a web-based and both iOS & Android platforms using React Native and Next.js",
+    title: "Senior Full Stack Developer at Plural Health",
+    desc: "Led frontend architecture for 15+ core EHR modules serving 10,000+ daily users. Built multi-tenant system with .NET Core, React Native mobile app, and achieved 85%+ test coverage. Reduced bundle size by 40% and improved performance significantly.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Frontend Engineer at Jetron Mall",
-    desc: "Designed and developed web-based platform using Next.js,Tyepscript, and Chakra UI to enhancing robust user experience",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Full Stack Developer at Jetron Mall Limited",
+    desc: "Built next-generation e-commerce marketplace using React, TypeScript, GraphQL Apollo Client connecting 500+ brands with 10,000+ active buyers. Developed custom OAuth2 authentication system and optimized GraphQL queries reducing requests by 60%.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Frontend Engineer at Samar",
-    desc: "Led the dev of a microsite website using gatsby and airtable and deployed to firebase hosting.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Full Stack Developer at Samar Digital Wallet",
+    desc: "Developed tax-free shopping digital wallet platform using Gatsby.js and Airtable, processing €500K+ monthly transactions. Integrated multiple payment gateways with PCI-DSS compliance and implemented SEO strategy increasing organic traffic by 45%.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Frontend Engineer at Canary Point Services",
-    desc: "Developed and maintained user-facing features using modern frontend technologies such as React, Typescript and Strapi",
+    title: "Frontend Developer at Canary Point Corporate Services",
+    desc: "Built responsive finance management application using React, Redux, and Strapi CMS serving 1,000+ corporate clients. Developed reusable component library with CSS Modules reducing development time by 30%.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
-]
+];
 
 export const socialMedia = [
   {
@@ -255,4 +244,4 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/rasheed-dev/",
   },
-]
+];

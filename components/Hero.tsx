@@ -43,9 +43,8 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-90">
-            Experienced Frontend Developer & Technical Writer | Specializing in
-            ReactJS, NextJS, React Native and Flutter | Dedicated to
-            High-Quality Solutions & Collaborative Teamwork
+            Senior Full Stack Developer | Frontend Architecture Specialist |
+            4+ Years Experience in Healthcare & E-commerce | React Ecosystem Expert
           </p>
 
           {/**
@@ -54,12 +53,13 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Architecting Enterprise-Grade Solutions with Exceptional User Experiences"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Rasheed, a Frontend Developer based in Nigeria.
+            Hi! I&apos;m Rasheed, a Senior Full Stack Developer specializing in scalable healthcare and e-commerce solutions.
+            Expert in React ecosystem with proven track record of serving 10,000+ daily users.
           </p>
 
           <a href="#about">
